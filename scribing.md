@@ -7,7 +7,7 @@
 
 -----------------------------------------------------
 #### The goal of ChIP-seq: To determine the locations in the genome associating with a protein factor
-![f38a69f1f487fde2c0df94a38092c5e2.png](evernotecid://8180CF8E-FC94-42BE-985A-2C0C8231A501/wwwevernotecom/226309320/ENResource/p7)
+![ChIP-seq.png](https://github.com/tmx1228/BIOC8106/blob/main/pics_in_scribing/Screen%20Shot%202022-05-06%20at%207.52.26%20PM.png)
 
 Where in the genome does your factor of interest locate?
 
@@ -23,7 +23,7 @@ Where in the genome does your factor of interest locate?
 6. DNA purification
 7. PCR amplification (~150bp)
 8. High-throughput sequencing (Illumina: can only sequencing the end of the DNA fragments)
-![d95ffeaa9f23ffe210983d452c89c9a3.png](evernotecid://8180CF8E-FC94-42BE-985A-2C0C8231A501/wwwevernotecom/226309320/ENResource/p8)
+![ChIP-seq.png](https://github.com/tmx1228/BIOC8106/blob/main/pics_in_scribing/Screen%20Shot%202022-05-06%20at%207.52.35%20PM.png)
 
 
 -----------------------------------------------------
@@ -35,7 +35,7 @@ Where in the genome does your factor of interest locate?
 - Unbiased chromosomal coverage by tiling array (2004)
 - ChIP-seq (2007)
 
-![2c5a5b650b7643484ec0436e4803d405.png](evernotecid://8180CF8E-FC94-42BE-985A-2C0C8231A501/wwwevernotecom/226309320/ENResource/p9)
+![ChIP-seq.png](https://github.com/tmx1228/BIOC8106/blob/main/pics_in_scribing/Screen%20Shot%202022-05-06%20at%207.52.43%20PM.png)
 
 - ChIP-seq has become a predominant method for profiling chromatin epigenomes
 
@@ -49,7 +49,7 @@ Where in the genome does your factor of interest locate?
 • What can we learn from these data? – Downstream analysis and integration
 
 - Steps：
-![2c051698faaec89263d5dcfa9c2039be.png](evernotecid://8180CF8E-FC94-42BE-985A-2C0C8231A501/wwwevernotecom/226309320/ENResource/p10)
+![ChIP-seq.png](https://github.com/tmx1228/BIOC8106/blob/main/pics_in_scribing/Screen%20Shot%202022-05-06%20at%207.52.50%20PM.png)
 
     1. Sequencing quality assessment: fastqc. If the quality scores across bases fail, either re-do the experiment or trim the data.
     2. ChIP-seq read mapping: map the fastq file containing the sequence information to the genome; alignment of each sequence read: bowtie, BWA (Burrows–Wheeler Algorithm); usually use the reads can map to a unique/best location in the genome.
@@ -109,4 +109,4 @@ Biological interpretation: ChIP-seq captures a snapshot of binding patterns from
 • Binding activity
 • Cellular heterogeneity
 
-![fec44729da02eaf31c2d6e8a9d9a0d41.png](evernotecid://8180CF8E-FC94-42BE-985A-2C0C8231A501/wwwevernotecom/226309320/ENResource/p11)
+![ChIP-seq.png](https://github.com/tmx1228/BIOC8106/blob/main/pics_in_scribing/Screen%20Shot%202022-05-06%20at%207.52.58%20PM.png)
